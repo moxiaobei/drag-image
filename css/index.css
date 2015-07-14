@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#drag-move {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 2px solid #000;
+    width: 800px;
+    padding: 10px;
+}
+
+#drag-move ul {
+    list-style: none;
+}
+
+#drag-move ul li {
+    float: left;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #ccc;
+    margin: 5px;
+    position: relative;
+}
+
+#drag-move img{
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -37px;
+    margin-top: -37px;
+}
+
+#drag-move .active {
+    border: 2px solid #f03;
+}
+
+#drag-move .bg {
+    background-image: url(../img/marker_top.gif), url(../img/marker_middle.gif), url(../img/marker_bottom.gif);
+    background-repeat: no-repeat, repeat-y, no-repeat;
+    background-position: left top, left, left bottom;
+    background-clip: border-box, border-box, border-box;
+}
+
+#drag-move div {
+    position: absolute;
+    width: 10px;
+    height: 90px;
+    left: -8px;
+    top: -5px;
+}
+/* 清除浮动 */
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    font-size: 0;
+    clear: both;
+    height: 0;
+}
