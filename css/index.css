@@ -6,10 +6,11 @@
 #drag-move {
     position: relative;
     margin: 0 auto;
-    margin-top: 30px;
-    border: 2px solid #000;
-    width: 800px;
-    padding: 10px;
+    margin-top: 50px;
+    border: 2px solid #DC143C;
+    border-radius: 50px;
+    width: 406px;
+    padding: 20px;
 }
 
 #drag-move ul {
@@ -20,9 +21,110 @@
     float: left;
     width: 80px;
     height: 80px;
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
     margin: 5px;
     position: relative;
+    box-sizing: border-box;
+}
+
+#drag-move .img1 {
+    background: url(../img/1.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img2 {
+    background: url(../img/2.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img3 {
+    background: url(../img/3.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img4 {
+    background: url(../img/4.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img5 {
+    background: url(../img/5.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img6 {
+    background: url(../img/6.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img7 {
+    background: url(../img/7.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img8 {
+    background: url(../img/8.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img9 {
+    background: url(../img/9.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img10 {
+    background: url(../img/10.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img11 {
+    background: url(../img/11.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img12 {
+    background: url(../img/12.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img13 {
+    background: url(../img/13.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img14 {
+    background: url(../img/14.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img15 {
+    background: url(../img/15.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img16 {
+    background: url(../img/16.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img17 {
+    background: url(../img/17.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img18 {
+    background: url(../img/18.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img19 {
+    background: url(../img/19.jpg) center center no-repeat;
+    background-size: 74px;
+}
+
+#drag-move .img20 {
+    background: url(../img/20.jpg) center center no-repeat;
+    background-size: 74px;
 }
 
 #drag-move img{
