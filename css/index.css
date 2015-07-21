@@ -25,128 +25,105 @@
     margin: 5px;
     position: relative;
     box-sizing: border-box;
+    background-size: 74px;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
+/*设置背景图片*/
 #drag-move .img1 {
-    background: url(../img/1.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/1.jpg);
 }
 
 #drag-move .img2 {
-    background: url(../img/2.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/2.jpg);
 }
 
 #drag-move .img3 {
-    background: url(../img/3.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/3.jpg);
 }
 
 #drag-move .img4 {
-    background: url(../img/4.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/4.jpg);
 }
 
 #drag-move .img5 {
-    background: url(../img/5.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/5.jpg);
 }
 
 #drag-move .img6 {
-    background: url(../img/6.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/6.jpg);
 }
 
 #drag-move .img7 {
-    background: url(../img/7.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/7.jpg);
 }
 
 #drag-move .img8 {
-    background: url(../img/8.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/8.jpg);
 }
 
 #drag-move .img9 {
-    background: url(../img/9.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/9.jpg);
 }
 
 #drag-move .img10 {
-    background: url(../img/10.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/10.jpg);
 }
 
 #drag-move .img11 {
-    background: url(../img/11.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/11.jpg);
 }
 
 #drag-move .img12 {
-    background: url(../img/12.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/12.jpg);
 }
 
 #drag-move .img13 {
-    background: url(../img/13.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/13.jpg);
 }
 
 #drag-move .img14 {
-    background: url(../img/14.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/14.jpg);
 }
 
 #drag-move .img15 {
-    background: url(../img/15.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/15.jpg);
 }
 
 #drag-move .img16 {
-    background: url(../img/16.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/16.jpg);
 }
 
 #drag-move .img17 {
-    background: url(../img/17.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/17.jpg);
 }
 
 #drag-move .img18 {
-    background: url(../img/18.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/18.jpg);
 }
 
 #drag-move .img19 {
-    background: url(../img/19.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/19.jpg);
 }
 
 #drag-move .img20 {
-    background: url(../img/20.jpg) center center no-repeat;
-    background-size: 74px;
+    background-image: url(../img/20.jpg);
 }
 
-#drag-move img{
-    width: 74px;
-    height: 74px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -37px;
-    margin-top: -37px;
-}
-
+/*图片被点击时*/
 #drag-move .active {
     border: 2px solid #f03;
 }
 
+/*设置距离移动元素最近的节点的背景*/
 #drag-move .bg {
     background-image: url(../img/marker_top.gif), url(../img/marker_middle.gif), url(../img/marker_bottom.gif);
     background-repeat: no-repeat, repeat-y, no-repeat;
     background-position: left top, left, left bottom;
     background-clip: border-box, border-box, border-box;
 }
+
 
 #drag-move div {
     position: absolute;
@@ -155,6 +132,7 @@
     left: -8px;
     top: -5px;
 }
+
 /* 清除浮动 */
 .clearfix {
     zoom: 1;
